@@ -14,8 +14,8 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 global.linkGC = ['https://chat.whatsapp.com/KG1QdHJ3qkB5QlFW0KeNNJ', 'https://chat.whatsapp.com/KG1QdHJ3qkB5QlFW0KeNNJ ', 'https://chat.whatsapp.com/HBhy7rVae3o0PkIfkhvs2N'] // ganti jadi group lu
-global.owner = ['6289526625512', '6289526625512', '6289526625512'] // Masukan nomot kalian
-global.mods = ['6289526625512', '6289526625512'] // Moderator
+global.owner = ['6285754180729', '6285754180729', '6285754180729'] // Masukan nomot kalian
+global.mods = ['6285754180729', '6285754180729'] // Moderator
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -55,7 +55,7 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = 'FahzzBot'
-  var sticker_author = '©Fahz🥀    ?'
+  var sticker_author = '©Fahzz    ?'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
