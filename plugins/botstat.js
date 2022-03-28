@@ -11,8 +11,8 @@ let handler = async (m, { conn }) => {
     let str = `
 ╭═════════════════
 ║╭─❉ [𝐈𝐍𝐅𝐎𝐁𝐎𝐓] ❉───
-║│➸ NameBot: LynXzy
-║│➸ Main Owner: LanXzy
+║│➸ NameBot: FahzBot
+║│➸ Main Owner: Fahzz
 ║│➸ Operated Since: Lupa gw
 ║│➸ Language Used: Nodejs (JS)
 ║│➸ Server: Heroku
