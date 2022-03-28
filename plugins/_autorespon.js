@@ -39,7 +39,7 @@ handler.all = async function (m, { isBlocked }) {
 ║- 085754180729 (Pulsa)
 ║- 085754180729 (Dana)
 ║- 085754180729 (Gopay)
-╠═〘 Fahzz 〙 ═`.trim(), '©Fahzz', 'Digi', '#viadana', 'Umobile', '#viagopay', m)
+╠═〘 Fahzz 〙 ═`.trim(), '©Fahzz', 'Dana', '#viadana', 'Gopay', '#viagopay', m)
 }
 
     // salam
