@@ -7,7 +7,7 @@ let handler = async (m, { conn }) => {
 ╠➥ *1 Bulan* :   *Rp 20.00*
 ║
 ╠═〘 𝐏𝐄𝐌𝐁𝐀𝐘𝐀𝐑𝐀𝐍 〙 ═
-╠➥ Topup/Pin
+╠➥ Dana/Gopay/Pulsa
 ║
 ╠═ Tertarik Untuk Beli Bot Ini?
 ╠➥Klil Button Di Bawah
