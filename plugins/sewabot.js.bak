@@ -11,8 +11,8 @@ let handler = async(m, { conn }) => {
 Silahkan klik pada "List Harga" untuk melihat list.
 
 Pembayaran:
-Pulsa (ISAT): 6285892962667 (+5.000)
-Dana: 6285714313795
+Pulsa (INDOSAT): 085754180729 (+5.000)
+Dana: 085754180729
 `.trim()
     const button = {
         buttonText: 'List Harga',
