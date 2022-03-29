@@ -9,8 +9,8 @@ let info = `╠═〘 PEMBAYARAN 〙 ═
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*Sewa Bot*', 'status@broadcast') 
 }
-handler.help = ['viaumobile']
+handler.help = ['viagopay']
 handler.tags = ['info']
-handler.command = /^viaumobile$/i
+handler.command = /^viagopay$/i
 
 module.exports = handler
