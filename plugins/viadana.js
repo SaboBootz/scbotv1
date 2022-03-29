@@ -10,8 +10,8 @@ let info = `
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*Sewa Bot*', 'status@broadcast') 
 }
-handler.help = ['viadigi']
+handler.help = ['viadana']
 handler.tags = ['info']
-handler.command = /^viadigi$/i
+handler.command = /^viadana$/i
 
 module.exports = handler
