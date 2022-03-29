@@ -29,17 +29,17 @@ handler.all = async function (m, { isBlocked }) {
     // ketika ada yang invite/kirim link grup di chat pribadi
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
         this.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `╠═〘 Beli Bot 〙 ═
-╠➥ *1 Minggu* :      *Rp 5.00*
-╠➥ *2 Minggu* : *Rp 10.00*
-╠➥ *3 Minggu* :   *Rp 15.00*
-╠➥ *1 Bulan* :        *Rp 20.00*
+╠➥ *1 DAY* :      *FREE*
+╠➥ *1 Minggu* : *Rp 5.000*
+╠➥ *2 Minggu* :   *Rp 10.000*
+╠➥ *PERMANEN* :        *Rp 15.000*
 ║
 ╠═〘 𝐏𝐄𝐌𝐁𝐀𝐘𝐀𝐑𝐀𝐍 〙 ═
 ╠➥ PULSA/DANA/GOPAY
 ║- 085754180729 (Pulsa)
 ║- 085754180729 (Dana)
 ║- 085754180729 (Gopay)
-╠═〘 Fahzz 〙 ═`.trim(), '©Fahzz', 'Dana', '#viadana', 'Gopay', '#viagopay', m)
+╠═〘 FAHZBOT 〙 ═`.trim(), '©Fahzz', 'Dana', '#viadana', 'Gopay', '#viagopay', m)
 }
 
     // salam
