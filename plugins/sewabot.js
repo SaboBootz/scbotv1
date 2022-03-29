@@ -3,10 +3,10 @@ let { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn }) => {
     let kamisato = `
 ╭═══ 〔 SEWA BOT 〕 ════
-├⬡ 𝟏 ᗰIᑎᘜᘜᑌ
-├⬡ 2 ᗰIᑎᘜᘜᑌ
-├⬡ 3 ᗰIᑎᘜᘜᑌ
-├⬡ 1 ᗷᑌᒪᗩᑎ
+├⬡ 𝟏 DAY
+├⬡ 1 MINGGU
+├⬡ 2 MINGGU 
+├⬡ PERMANEN
 └═══════════════
 𝗦𝗶𝗹𝗮𝗸𝗮𝗻 𝗸𝗹𝗶𝗸 𝗽𝗮𝗱𝗮 "𝗟𝗶𝘀𝘁 𝗛𝗮𝗿𝗴𝗮" 𝘂𝗻𝘁𝘂𝗸 𝗺𝗲𝗹𝗶𝗵𝗮𝘁 𝗹𝗶𝘀𝘁.
 ╭═══════════════════════
@@ -20,10 +20,10 @@ let handler = async(m, { conn }) => {
         buttonText: 'List Harga',
         description: kamisato,
         sections:  [{title: "Silahkan di pilih", rows: [
-        {title: '1 Minggu', description: "Rm5.00\nSewa bot 1 Minggu.", rowId:".masuk"},
-        {title: '2 Minggu', description: "Rm10.00\nSewa bot 2 Minggu.", rowId:".masuk"},
-        {title: '3 Minggu', description: "Rm15.00\nSewa bot 3 Minggu.", rowId:".masuk"},
-        {title: '1 Bulan', description: "Rm20.00\nSewa bot 1 Bulan.", rowId:".masuk"},
+        {title: '1 DAY', description: "FREE\nSewa bot 1 DAY.", rowId:".masuk"},
+        {title: '2 Minggu', description: "Rp5.00/\nSewa bot 1 Minggu.", rowId:".masuk"},
+        {title: '3 Minggu', description: "Rm10.000\nSewa bot 2 Minggu.", rowId:".masuk"},
+        {title: 'PERMANEN', description: "Rm20.000\nSewa bot PERMANEN.", rowId:".masuk"},
         {title: 'Trial', description: "Free\nBot Free 1 Hari.", rowId:".masuk"},
         {title: 'Owner', description: "Chat owner nya jika ada perlu.", rowId:".owner"},
         {title: 'Rules', description: "Rules Bot Fahzz.", rowId:".snk"},
